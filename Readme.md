@@ -36,7 +36,9 @@ projet/
 Avant de lancer le projet, assurez-vous d'avoir :
 
 🔹 Java Development Kit (JDK) installé (version 8+).
+
 🔹 Un éditeur de texte (IntelliJ, Eclipse, VS Code, etc.).
+
 🔹 Une console (Terminal ou CMD).
 
 ---
@@ -79,8 +81,11 @@ Message reçu du serveur : Proverbe du jour : "Le bonheur est un choix."
 ```
 ## 📚 Concepts abordés
 🚀 Programmation réseau avec sockets.
+
 🔄 Communication client-serveur via TCP/IP.
+
 🎲 Génération aléatoire de données.
+
 🧹 Gestion des flux InputStream et OutputStream.
 
 
