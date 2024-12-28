@@ -10,7 +10,9 @@ projet/
 │
 ├── ServeurProverbe.java   # Le serveur qui envoie des proverbes
 ├── ClientProverbe.java    # Le client qui reçoit les proverbes
+├── MyServerMT.java        # Un vrai serveur multithread qui gère plusieurs clients
 └── README.md              # Ce fichier d'explication
+
 ```
 ---
 
@@ -18,6 +20,7 @@ projet/
 
 - 🖥️ **Serveur** qui envoie un proverbe aléatoire parmi une liste prédéfinie.
 - 🤝 **Client** qui se connecte au serveur pour recevoir un proverbe.
+- 🖥️ **ServeurMT** C'est un vrai serveur qui gère plusieurs clients en utilisant Threads.
 - 🔄 Communication basée sur le protocole **TCP/IP**.
 
 ---
@@ -72,6 +75,8 @@ Client connecté : /127.0.0.1
 Proverbe envoyé et client déconnecté.
 
 ```
+
+
 ### Client :
 ```plaintext
 Connecté au serveur.
